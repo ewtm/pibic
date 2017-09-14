@@ -1,0 +1,12 @@
+create table produtos( 
+    id int primary key not null auto_increment,
+    nome varchar(255), 
+    valor float,
+    quantidade int,
+    nivelRepo int, 
+    categoria_id int
+);
+
+create table categorias(
+	id int primary key not null auto_increment,
+    nome varchar(255));
